@@ -1,0 +1,17 @@
+{
+    "daemon_listen_port": 7878,
+    "dependencies": [
+        "https://github.com/ROC5COR/M_SpeakerOutputNode/archive/master.zip",
+        "https://github.com/ROC5COR/M_FaceDetectNode/archive/master.zip",
+        "https://github.com/ROC5COR/M_FaceRecognitionNode/archive/master.zip",
+        "https://github.com/ROC5COR/M_SricamInputNode/archive/master.zip"
+    ],
+    "envs": {
+        "FaceRecognitionNode_Label": "/Users/roc5/Desktop/anki_vector_projects/dev/FaceRecognitionNode/custom_label_encoder.pickle",
+        "FaceRecognitionNode_Recognizer": "/Users/roc5/Desktop/anki_vector_projects/dev/FaceRecognitionNode/custom_recognizer.pickle",
+        "SricamInputNode_StreamAddress": "rtsp://192.168.0.27/onvif1"
+    },
+    "server_start_port": 8001,
+    "server_storage_dir": "MaestroServerStarter/server_storage",
+    "update": true
+}

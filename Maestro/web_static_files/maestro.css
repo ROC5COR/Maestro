@@ -1,0 +1,37 @@
+body {
+    background-color: #0D0D0D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2E750;
+}
+.title {
+    text-align: center;
+}
+
+.data_box {
+    border-color: #F2E750;
+    border-style: solid;
+    margin: 10px;
+}
+
+.data_title {
+    /*text-align: center;*/
+    font-size: 1.2em;
+}
+
+.data_text {
+    font-size: 0.9em;
+}
+
+.scenario_box {
+    border-color: #D9A036;
+    border-style: solid;
+    margin: 10px;
+}
+
+/*
+#F2E750 : jaune
+#D9A036 : orange
+#8C6723 : kaki
+#403014 : marron
+#0D0D0D : noir
+*/
